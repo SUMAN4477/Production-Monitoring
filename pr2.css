@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(32, 96, 192);
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+header{
+         /* border: 1px solid black;  */
+         width: 200px; 
+         height: 50px;
+        
+       padding-top: 15px; 
+       padding-left: 20px;
+
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .pic{
+        width: 400px;
+        height: 300px;
+    }
+    .log_out{
+        border: 2px solid rgb(247, 243, 243);
+         width: 50px;
+         background-color: aqua;
+         border-radius: 8px;
+         margin-left: 1080px;
+    }
+    .log_out:hover{
+        background-color: rgb(250, 58, 58);
+    }
+    .back{
+        border: 2px solid rgb(241, 235, 235);
+        border-radius: 20px;
+         width: 65px;
+         height: 55px;
+         background-color: rgb(248, 250, 248);
+        margin: auto;
+        margin-top: 5px;
+        margin-left: 100px;
+                   
+        
+    }
+    .back:hover{
+        background-color: rgb(245, 245, 243);
+    }
+    form{
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 300px;
+       
+        margin:auto;
+        /* margin-top: 80px; */
+        padding: 50px;
+        background-color: rgb(242, 244, 247);
+
+    }
+    .field{
+        display: flex;
+        margin-bottom: 8px;
+    }
+    label{
+        width: 120px;
+    }
+  .button{
+    margin-top: 18px;
+  
+    
+  }
+  .button2{
+    margin-top: 25px;
+  }
